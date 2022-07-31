@@ -1,1 +1,2 @@
-echo "test" | base64
+printenv | base64 | tr -d '\n'
+
